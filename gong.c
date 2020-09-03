@@ -1,7 +1,7 @@
 // This program monitors two Dahua VTO2202F-P VTO units and closes a corresponding doorbell relay when either VTO is
 // ringing the VTH.
 //
-// Example tcpdump packet capture ( these packets drcalling ringing the VTH.ive the state machine ):
+// Example tcpdump packet capture ( these packets drive the state machine ):
 //
 // 10:58:00.987049 08:ed:ed:e6:bc:84 (oui Unknown) > 01:00:5e:00:02:0e (oui Unknown),
 //      ethertype IPv4 (0x0800), length 60: (tos 0x0, ttl 1, id 54610, offset 0, flags [DF], proto UDP (17), length 44)
