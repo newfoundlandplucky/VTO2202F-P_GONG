@@ -4,11 +4,11 @@ Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding 
 ![Deployment on NanoPI NEO Core2](https://github.com/newfoundlandplucky/VTO2202F-P_GONG/blob/master/documentation/Delpoyment.jpg?raw=true)
 
 **Tested using the following environment**
-         SBC: NanoPI NEO Core2 "Armbian 20.08 Focal"
-              Linux Elvis 5.7.15-sunxi64 #20.08 SMP Mon Aug 17 10:32:57 CEST 2020 aarch64 aarch64 aarch64 GNU/Linux
-    VTO Main: VTO2202F 4.410.0000000.4.R
-     VTO Sub: VTO2202F 4.400.0000000.2.R
-         VTH: VTH2421F-P 4.400.0000000.7.R
+* SBC: NanoPI NEO Core2 "Armbian 20.08 Focal"
+* Linux Elvis 5.7.15-sunxi64 #20.08 SMP Mon Aug 17 10:32:57 CEST 2020 aarch64 aarch64 aarch64 GNU/Linux
+* VTO Main: VTO2202F 4.410.0000000.4.R
+* VTO Sub: VTO2202F 4.400.0000000.2.R
+* VTH: VTH2421F-P 4.400.0000000.7.R
 
 **Vendors and Forums**
 * IP Cam Talk: https://www.ipcamtalk.com/threads/review-ip-villa-outdoor-doorbell-station-indoor-monitor-kit.49853/
