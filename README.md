@@ -16,7 +16,20 @@ Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding 
 * Friendly Elec: https://www.friendlyarm.com/
 
 **Sample Output**
+
 ```
+Usage: ./gong [-d] -i <ip> -g <ip> [-b <integer>] [-c <integer>] -m <ip> [-1 <pin>] [-s <ip>] [-2 <pin>]
+        -d: Show debug messages. No parameter. [DEFAULT OFF]
+        -i: Interface to monitor (e.g. 192.168.1.111)
+        -g: VTO multicast ip address [DEFAULT 224.0.2.14]
+        -b: Button press time in seconds [DEFAULT 2]
+        -c: Cooldown between button presses in seconds [DEFAULT: 8]
+        -m: Main VTO ip address (e.g. 192.168.1.108)
+        -1: Main VTO relay name [DEFAULT PG6]
+        -s: Sub VTO ip address (e.g., 192.168.1.110)
+        -2: Sub VTO relay name [DEFAULT PG11]
+        Send SIGINT to end program
+
 elvis@NanoPI:~/gong$ sudo ./gong.sh
 [sudo] password for elvis:
 Thu Sep  3 14:33:16 2020: Running: ./gong -d -i 192.168.1.26 -g 224.0.2.14 -b 2 -c 10 -m 192.168.1.108 -1 PG6 -s 192.168.1.110 -2 PG11
