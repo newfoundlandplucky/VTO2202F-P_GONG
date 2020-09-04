@@ -11,11 +11,12 @@ Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding 
          VTH: VTH2421F-P 4.400.0000000.7.R
 
 **Vendors and Forums**
-        IP Cam Talk: https://www.ipcamtalk.com/threads/review-ip-villa-outdoor-doorbell-station-indoor-monitor-kit.49853/
-      Friendly Elec: https://www.friendlyarm.com/
- BEC Technology Co.: https://ipcamtalk.com/forums/empiretech-andy.68/
+* IP Cam Talk: https://www.ipcamtalk.com/threads/review-ip-villa-outdoor-doorbell-station-indoor-monitor-kit.49853/
+* Friendly Elec: https://www.friendlyarm.com/
+* BEC Technology Co.: https://ipcamtalk.com/forums/empiretech-andy.68/
 
 **Sample Output**
+'''
 elvis@NanoPI:~/gong$ sudo ./gong.sh
 [sudo] password for elvis:
 Thu Sep  3 14:33:16 2020: Running: ./gong -d -i 192.168.1.26 -g 224.0.2.14 -b 2 -c 10 -m 192.168.1.108 -1 PG6 -s 192.168.1.110 -2 PG11
@@ -57,7 +58,7 @@ Thu Sep  3 14:34:49 2020: MainVTO-PG6 button pressed.
 Thu Sep  3 14:34:49 2020: VTO 192.168.1.108 80 60 56 53 00 36 c0 cb ff ff e9 5e 68 ce 31 b2
 Thu Sep  3 14:34:51 2020: MainVTO-PG6 button released.
 Thu Sep  3 14:34:51 2020: MainVTO-PG6 is no longer calling
-
+'''
 **Benchtop Evaluation**
 
 ![Benchtop Evaluation](documentation/BenchTest.jpg?raw=true)
