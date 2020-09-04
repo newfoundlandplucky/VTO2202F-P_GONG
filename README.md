@@ -20,7 +20,7 @@ Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding 
 ```
 Usage: ./gong [-d] -i <ip> -g <ip> [-b <integer>] [-c <integer>] -m <ip> [-1 <pin>] [-s <ip>] [-2 <pin>]
         -d: Show debug messages. No parameter. [DEFAULT OFF]
-        -i: Interface to monitor (e.g. 192.168.1.111)
+        -i: Interface to monitor (e.g. 192.168.1.126)
         -g: VTO multicast ip address [DEFAULT 224.0.2.14]
         -b: Button press time in seconds [DEFAULT 2]
         -c: Cooldown between button presses in seconds [DEFAULT: 8]
