@@ -1,7 +1,7 @@
 # VTO2202F-P_GONG
 Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding doorbell relay when either VTO is calling
 
-![Deployment on NanoPI NEO Core2](documentation/Deployment.jpg?raw=true)
+![Deployment on NanoPI NEO Core2](https://github.com/newfoundlandplucky/VTO2202F-P_GONG/blob/master/documentation/Delpoyment.jpg?raw=true)
 
 **Tested using the following environment**
          SBC: NanoPI NEO Core2 "Armbian 20.08 Focal"
@@ -61,5 +61,4 @@ Thu Sep  3 14:34:51 2020: MainVTO-PG6 is no longer calling
 '''
 **Benchtop Evaluation**
 
-![Benchtop Evaluation](documentation/BenchTest.jpg?raw=true)
-
+![Benchtop Evaluation](https://github.com/newfoundlandplucky/VTO2202F-P_GONG/blob/master/documentation/BenchTest.jpg?raw=true)
