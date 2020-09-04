@@ -14,6 +14,7 @@ Monitor up to two Dahua VTO2202F-P VTO doorbell units and close a corresponding 
 * IP Cam Talk: https://www.ipcamtalk.com/threads/review-ip-villa-outdoor-doorbell-station-indoor-monitor-kit.49853/
 * BEC Technology Co.: https://ipcamtalk.com/forums/empiretech-andy.68/
 * Friendly Elec: https://www.friendlyarm.com/
+* Armbian: https://www.armbian.com/nanopi-neo-core-2-lts/
 
 **Sample Output**
 
