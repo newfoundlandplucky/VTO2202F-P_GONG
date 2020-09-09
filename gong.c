@@ -9,7 +9,7 @@
 //
 // Example logging output from this program:
 //
-//  Wed Sep  2 18:43:56 2020 [00,00]: 192.168.1.110: 80 60 7b 3e 47 28 84 55 ff ff f3 0f 68 ce 31 b2
+//  Wed Sep  2 18:43:56 2020: 192.168.1.110 80 60 7b 3e 47 28 84 55 ff ff f3 0f 68 ce 31 b2
 
 #include <sys/socket.h>
 #include <sys/stat.h>
@@ -308,7 +308,7 @@ static void set_button_value( vto *v, const char *value )
 #pragma GCC diagnostic pop
 
 // VTO sends a 16 byte UDP message, approximately every couple of seconds, when soliciting an answer from the VTH.
-// The VTH sends these messages for a few minutes. The messages drive a state machine that presses the doorbell
+// The VTO sends these messages for a few minutes. The messages drive a state machine that presses the doorbell
 // button for <relay_timer default 2> seconds and also waits for <cooldown_timer default 10> seconds before allowing
 // the relay to chime again. By default this will cause the doorbell to chime about 5 times over the entire call cycle.
 
@@ -370,7 +370,7 @@ int main( int argc, char *argv[] )
         struct sockaddr_in *in = (struct sockaddr_in *) &address_buffer;
         char *ip_address = inet_ntoa( in->sin_addr );
 
-        if( size == -1 && ( errno == EAGAIN || size == EWOULDBLOCK ) )
+        if( size == -1 && ( errno == EAGAIN || errno == EWOULDBLOCK ) )
         {
             // Only time out when both main vto and sub vto are quiet. As a result one or the other vto may
             // take slightly longer to timeout because it has to wait for the other to finish call handling.

@@ -77,3 +77,7 @@ elvis@NanoPI:~/gong$ sudo ./gong.sh
 **Benchtop Evaluation**
 
 ![Benchtop Evaluation](https://github.com/newfoundlandplucky/VTO2202F-P_GONG/blob/master/documentation/BenchTest.jpg?raw=true)
+
+**Attribution**
+
+This project started with code from https://github.com/denimjeans/DahuaVTO-Gong.
